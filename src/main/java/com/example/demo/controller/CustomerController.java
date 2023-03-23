@@ -19,9 +19,9 @@ public class CustomerController {
     @CrossOrigin(origins = "*")
 
     @GetMapping("/getAllUser")
-    List<CustomerORM> getAllUser(){
+    String getAllUser(){
 
-        return customerService.getAllUser();
+        return "Hello World";
     }
 
 }
